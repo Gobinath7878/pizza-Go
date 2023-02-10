@@ -1,0 +1,26 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.quantity-bubble {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  top: -5px;
+  right: -8px;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  justify-content: center;
+  color: #ffffff;
+}
+
+/* @media screen and (max-width: 480px) {
+  .product-image {
+    display: none;
+    visibility: hidden;
+  }
+} */
